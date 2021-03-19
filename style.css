@@ -471,7 +471,7 @@
     .sec2 {
         margin-top: 5px;
         width: 100%;
-        height: 300vh;
+        height: 320vh;
         background-color: #F6F3F2;
         /* display: flex;
         justify-content: center; */
@@ -707,4 +707,66 @@
         text-decoration: none;
         color: black;
         border-bottom: 5px solid #D33A2C;
+    }
+    
+    .sec3 {
+        width: 100%;
+        height: 270mm;
+        background-color: #1B71BB;
+        /* display: block; */
+    }
+    
+    .sec3_maindiv {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+        justify-content: space-between;
+        /* border: 1px solid black; */
+        height: 250mm;
+        padding: 40px;
+    }
+    
+    .sec3_maindiv h5 {
+        font-size: 20px;
+        color: white;
+        font-weight: 700;
+        font-style: normal;
+        text-shadow: 1px 2px 2px #383636;
+    }
+    
+    .click1,
+    .click2 {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 56px;
+        text-decoration: underline#4399D9;
+        color: white;
+        text-shadow: 1px 2px 2px #383636;
+    }
+    
+    .sec3_maindiv p {
+        color: white;
+        line-height: 40px;
+        font-size: 25px;
+        font-weight: 300;
+        text-shadow: 1px 2px 2px #383636;
+        width: 800px;
+    }
+    
+    .sec3_maindiv p strong {
+        font-weight: bold;
+        text-shadow: 1px 2px 2px #383636;
+    }
+    
+    .button1 {
+        background-color: white;
+        color: #1B71BB;
+        text-decoration: none;
+        font-size: 30px;
+        padding: 30px;
+        border-radius: 20px;
+        font-family: 'Spinnaker', sans-serif;
+        font-weight: bold;
     }
