@@ -890,7 +890,7 @@
         height: 1px;
         background-color: black;
         position: absolute;
-        top: ;
+        /* top: ; */
         left: -160px;
     }
     
@@ -904,7 +904,7 @@
     
     .performance {
         width: 588px;
-        height: 849px;
+        height: 810px;
         background-color: white;
         display: flex;
         flex-direction: column;
@@ -962,5 +962,70 @@
     .kat {
         width: 597px;
         height: 850px;
-        background-color: #1282BD;
+        background: linear-gradient(#1B71BB, #03A1C0);
+        border-radius: 10px;
+        box-shadow: 0 2px 6px 0 rgb(0 0 0 / 12%);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    .kat h2 a {
+        color: white;
+        /* text-decoration: none; */
+        text-shadow: 1px 1px 1px rgb(0 0 0 / 90%);
+        /* text-decoration-line: underline; */
+        text-decoration: underline 0.5px solid #fff;
+        font-size: 51px;
+        line-height: 61px;
+        font-weight: 700;
+    }
+    
+    .kat p {
+        font-size: 21px;
+        line-height: 34px;
+        color: #fff;
+        font-weight: 400;
+        text-shadow: 1px 1px 1px rgb(0 0 0 / 90%);
+        width: 500px;
+    }
+    
+    .mail_cat {
+        width: 200px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 24px;
+        color: #272727;
+        padding-left: 10px;
+        border-bottom-left-radius: 10px;
+        border-top-left-radius: 10px;
+        border: none;
+    }
+    
+    .btn_cat {
+        width: 150px;
+        padding: 10px 0px 10px 5px;
+        border: none;
+        color: #fff;
+        background-color: #0168B8;
+        font-size: 24px;
+        border-bottom-right-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    
+    .kat label {
+        display: flex;
+        justify-content: baseline
+    }
+    
+    .kat h4 {
+        width: 400px;
+        background: linear-gradient(#0685BC, #038BBD);
+        color: white;
+        padding: 10px 5px 10px 5px;
+        font-size: 19px;
+        line-height: 28px;
+        border-radius: 11px;
+        text-shadow: 1px 1px 1px rgb(0 0 0 / 30%);
     }
